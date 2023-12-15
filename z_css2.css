@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.logo_mini{
+    display: block;
+    margin: 0 auto;
+}
+.justify-content-between{   
+    display:flex;
+    justify-content:center;
+    background-color:#0360E4
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0360E4
+}
+.pos{
+    display:inline-block;
+    text-align:center   
+}
+.pos a {                   
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+.pos a:hover{
+    background-color: #3244C0;
+}
+.jun{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+.line1{
+    width: 49px;
+    height: 120px;
+    background: linear-gradient( to top, #A9C7F5, #0360E4 );
+    position: absolute;
+    left: 410px;
+    top: 127px;
+}
+.line2{
+    width: 49px;
+    height: 120px;
+    background: linear-gradient( to top, #A9C7F5, #0360E4 );
+    position: absolute;
+    right: 410px;
+    top: 127px;
+}
+.box1{
+    margin: 0 auto;
+    width: 1100px;
+    height: 208px;
+    background-color: #A9C7F5;
+    color:#0360E4;
+    position: relative;
+    top: 110px;
+    z-index: -1;
+    text-align: center;
+    font-size: 30px;
+    font-family: Noto Sans KR;
+}
+.border1{
+    margin: 0 auto;
+    width: 1002px;
+    height: 155px;
+    border: 3px solid #0360E4;
+    color:#0360E4;
+    position: relative;
+    top: -70px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Noto Sans KR;
+}
+.vox{
+    width: 1100px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.text1{
+    text-align: left;
+    font-family: Noto Sans KR;
+    font-size: 30px;
+    color: #0360E4;
+}
+.text2{
+    text-align: right;
+    font-family: Noto Sans KR;
+    font-size: 30px;
+    color: #0360E4;
+}
+.text3{
+    text-align: left;
+    font-family: Noto Sans KR;
+    font-size: 30px;
+    color: #0360E4;
+}
+.pic1{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+.box3{
+    float: right;
+    width: 244px;
+    height: 252px;
+    background-color: #0360E4;
+    z-index: -2;
+}
+.box4{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #A9C7F5;
+    width: 205px;
+    height: 225px;
+    z-index: 0;
+}
+.pic2{
+    margin: 0 auto;
+    left: -30px;
+    position: relative;
+    padding: 30px;
+}
+.cop{
+    position:relative;
+	bottom:-700px;
+    text-align: center;
+    color: #0360E4;
+    background-color: #A9C7F5;
+    padding: 30px;
+}
+.logo{
+    float: left;
+    position: relative;
+    bottom: -720px;
+    z-index: 1;
+}

@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.logo_mini{
+    display: block;
+    margin: 0 auto;
+}
+.justify-content-between{   
+    display:flex;
+    justify-content:center;
+    background-color:#0360E4
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0360E4
+}
+.pos{
+    display:inline-block;
+    text-align:center   
+}
+.pos a {                   
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+.pos a:hover{
+    background-color: #3244C0;
+}
+.line1{
+    width: 49px;
+    height: 120px;
+    background: linear-gradient( to top, #A9C7F5, #0360E4 );
+    position: absolute;
+    left: 410px;
+    top: 127px;
+}
+.line2{
+    width: 49px;
+    height: 120px;
+    background: linear-gradient( to top, #A9C7F5, #0360E4 );
+    position: absolute;
+    right: 410px;
+    top: 127px;
+}
+.box1{
+    margin: 0 auto;
+    width: 1100px;
+    height: 208px;
+    background-color: #A9C7F5;
+    color:#0360E4;
+    position: relative;
+    top: 110px;
+    z-index: -1;
+    text-align: center;
+    font-size: 30px;
+    font-family: Noto Sans KR;
+}
+.border1{
+    margin: 0 auto;
+    width: 1002px;
+    height: 155px;
+    border: 3px solid #0360E4;
+    color:#0360E4;
+    position: relative;
+    top: -70px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Noto Sans KR;
+}
+.vox{
+    width: 1100px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.little_box{
+    text-align: left;
+    font-size: 100px;
+    font-family: G마켓 산스 TTF;
+    background-color: #A9C7F5;
+    color: #0360E4;
+    width: 192px;
+    height: 146px;
+}
+.box2{
+    width: 889px;
+    height: 120px;
+    text-align: left;
+    font-size: 40px;
+    font-family: Noto Sans KR;
+    color: #0360E4;
+    position: relative;
+    top: -140px;
+    left: 100px;
+    margin: 0 auto;
+}
+.box3{
+    width: 889px;
+    height: 120px;
+    text-align: left;
+    font-size: 40px;
+    font-family: Noto Sans KR;
+    color: #0360E4;
+    position: relative;
+    top: -140px;
+    left: 100px;
+    margin: 0 auto;
+}
+.box4{
+    width: 889px;
+    height: 120px;
+    text-align: left;
+    font-size: 40px;
+    font-family: Noto Sans KR;
+    color: #0360E4;
+    position: relative;
+    top: -140px;
+    left: 100px;
+    margin: 0 auto;
+}
+.text_box1{
+    margin: 0 auto;
+    background-color: #CEE0FD;
+    color: #529AFF;
+    font-size: 28px;
+    font-family: Noto Sans KR;
+    position: relative;
+    top: -120px;
+    padding: 10px;
+    text-align: center;
+}
+.text_box2{
+    margin: 0 auto;
+    background-color: #CEE0FD;
+    color: #529AFF;
+    font-size: 28px;
+    font-family: Noto Sans KR;
+    position: relative;
+    top: -120px;
+    padding: 10px;
+    text-align: center;
+}
+.text_box3{
+    margin: 0 auto;
+    background-color: #CEE0FD;
+    color: #529AFF;
+    font-size: 28px;
+    font-family: Noto Sans KR;
+    position: relative;
+    top: -120px;
+    padding: 10px;
+    text-align: center;
+}
+
+.foot{
+    text-align: left;
+    font-size: 30px;
+    font-family: Noto Sans KR;
+    color: #A9C7F5;
+    position: relative;
+    top: 3400px;
+}
+.cop{
+    position:relative;
+	bottom:-3400px;
+    text-align: center;
+    color: #0360E4;
+    background-color: #A9C7F5;
+    padding: 30px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    bottom: -3585px;
+    z-index: 1;
+}
